@@ -1,0 +1,73 @@
+.topMenuBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: "Lexend";
+    margin-left: -120px;
+}
+
+.topMenuBarSpacing{
+    margin-left: 120px;
+}
+
+.topMenuBarGradient{
+    background: linear-gradient(265deg, #0075FF 3%, #4378FF 3%, #DE00D5 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hrSpecial{
+    width: 450px;
+    height: 2px;
+    background: linear-gradient(265deg, #0075FF 3%, #4378FF 3%, #DE00D5 110%);
+    border: none;
+}
+
+#mainContent{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    background: #0F0D0F;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: "Lexend";
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+h2{
+    font-family: "Lexend";
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: "Cabin";
+    font-size: 18px;
+}
+
+hr{
+    width: 300px;
+}
+
+a{
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    font-size: 20px;
+    text-shadow: 
+    0 0 26px rgb(0, 26, 255, 0.7),
+    0 0 56px rgba(106, 0, 255, 1),
+    0 0 86px rgba(106, 0, 255, 1);
+}
